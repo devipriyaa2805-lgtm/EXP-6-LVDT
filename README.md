@@ -131,11 +131,11 @@ Displacement vs output voltage (positive and negative directions)
 
 ### A. Positive Displacement vs Output Voltage
 
-<img width="661" height="466" alt="Graph-Positive" src="https://github.com/user-attachments/assets/911e0c60-b224-487d-a1b2-5595e1888181" />
+<img width="479" height="423" alt="Graph-Positive" src="https://github.com/user-attachments/assets/d9f595d4-0e41-43c9-ad75-315b1ae55eca" />
 
 ### B. Negative Displacement vs Output Voltage
 
-<img width="660" height="468" alt="Graph-Negative" src="https://github.com/user-attachments/assets/dd84ac97-09a8-4d8d-9e1a-3545af84bcd6" />
+<img width="505" height="428" alt="Graph-Negative" src="https://github.com/user-attachments/assets/0db5477f-8f57-4378-accf-1ccafd5a86a4" />
 
 ## RESULT
 
