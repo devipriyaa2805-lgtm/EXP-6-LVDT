@@ -1,42 +1,42 @@
-# EXPERIMENT NO. 6 – CHARACTERISTICS OF LVDT
+# EXPERIMENT NO: 5
 
-| **Name:** | | **Reg. No.:** | |
-|---|---|---|---|
-| **Date:** | | **Batch / Section:** | |
-
----
+# CHARACTERISTICS OF LVDT
 
 ## AIM
-
 To measure the output voltage with respect to the displacement of the core of an LVDT (in both positive and negative directions) using the Virtual Lab, and to find the graphical relationship between the two.
 
 ## APPARATUS REQUIRED
 
 | S. No. | Apparatus | Quantity |
-|:---:|:---:|:---:|
-| 1 | LVDT kit | 1 |
+|---|---|---|
+| 1 | LVDT Kit | 1 |
 | 2 | Multimeter | 1 |
-| 3 | Virtual Lab – LVDT experiment | 1 |
+| 3 | Virtual Lab – LVDT Experiment | 1 |
 
 ## THEORY
 
-The Linear Variable Differential Transformer (LVDT) is a mutual-inductance type transformer with variable coupling between one primary coil and two secondary coils. Its operation is similar to that of an E-pick-off, except that the reluctance of the magnetic path is mostly due to the air path.
+The Linear Variable Differential Transformer (LVDT) is a mutual-inductance type transformer with variable coupling between one primary coil and two secondary coils. It is used to measure linear displacement.
 
 The primary coil is uniformly wound over a certain length of the transducer, and two identical secondary coils are wound symmetrically on either side of the primary. A soft-iron core (armature) is free to move inside the coils in either direction from the null (centre) position.
 
-When the primary is excited by an AC supply, EMFs are induced in both secondaries. The secondaries are connected in series opposition, so that when the core is at the null position the induced EMFs are equal and the resultant output voltage is zero. When the core is displaced in either direction from the null position, the induced EMF of one secondary increases and that of the other decreases, giving an output voltage proportional to the displacement. The phase of the output tells the direction of movement (positive or negative).
+When the primary is excited by an AC supply, EMFs are induced in both secondary coils. The secondary coils are connected in series opposition. When the core is at the null position, the induced EMFs are equal and the resultant output voltage is ideally zero.
 
-In practice, a small residual voltage is observed at the null position due to capacitive coupling between the primary and secondary windings. The output-versus-displacement characteristic is linear only over a limited range of displacement.
+When the core is displaced in either direction, the induced EMF of one secondary increases and that of the other decreases, producing an output voltage proportional to the displacement. The phase of the output indicates the direction of movement.
 
-## PROCEDURE (VIRTUAL LAB)
+The output-versus-displacement characteristic is linear only over a limited range of displacement.
+
+## PROCEDURE
 
 1. Open the LVDT experiment in the Virtual Lab.
-2. Set the input (excitation) voltage and frequency to the given values and keep them fixed throughout the experiment.
-3. Keep the core at the null (zero) position and note the output (residual) voltage.
-4. Move the core in the positive direction in equal steps (e.g. 1 mm) up to the maximum displacement, and note the output voltage for each step.
-5. Bring the core back to the null position.
-6. Move the core in the negative direction in equal steps up to the maximum displacement, and note the output voltage for each step.
-7. Tabulate the readings and plot the graph of displacement (x-axis) versus output voltage (y-axis) for both directions.
+2. Construct the LVDT circuit using the given components.
+3. Set the input voltage to 10 V and frequency to 1000 Hz.
+4. Keep the input voltage and frequency constant throughout the experiment.
+5. Move the core in the positive direction in equal steps of 1 mm.
+6. Note the corresponding output voltage for each displacement.
+7. Bring the core back to the centre position.
+8. Move the core in the negative direction in equal steps of 1 mm.
+9. Note the corresponding output voltage for each displacement.
+10. Tabulate the readings and plot the graph of displacement (x-axis) versus output voltage (y-axis) for both directions.
 
 ## PRECAUTIONS
 
@@ -47,74 +47,98 @@ In practice, a small residual voltage is observed at the null position due to ca
 
 ## CIRCUIT DIAGRAM
 
-*[ Insert the LVDT construction / circuit diagram here ]*
-
-**Figure 1:** LVDT – construction and circuit diagram
+<img width="677" height="615" alt="Circuit" src="https://github.com/user-attachments/assets/c14ec016-4184-4e77-83d5-26af2f54814c" />
 
 ## SIMULATION USING VIRTUAL LAB
 
-Paste screenshots from the Virtual Lab showing the input voltage and frequency setting, the core position and the output voltage.
+### A. Positive Displacement of Core
 
-### A. Positive displacement of core
+<img width="1322" height="494" alt="Output-Positive" src="https://github.com/user-attachments/assets/5484b2dc-08ec-468f-b8b5-06ee265d3cf3" />
 
-*[ Paste the Virtual Lab screenshot – positive displacement ]*
+### B. Negative Displacement of Core
 
-**Figure 2:** Virtual Lab – positive displacement of core
-
-### B. Negative displacement of core
-
-*[ Paste the Virtual Lab screenshot – negative displacement ]*
-
-**Figure 3:** Virtual Lab – negative displacement of core
+<img width="1331" height="513" alt="Output-Negative" src="https://github.com/user-attachments/assets/2414144a-37ac-45c2-a549-fed5968cde08" />
 
 ## OBSERVATION TABLE
 
-**Input voltage Vin = ______ V      Frequency f = ______ Hz      Null voltage = ______ V**
+**Input Voltage (Vin) = 10 V**
 
-### A. Positive displacement of core
+**Frequency (f) = 1000 Hz**
 
-| S. No. | Displacement x (mm) | Output voltage Vo (V) |
-|:---:|:---:|:---:|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
-| 6 | | |
-| 7 | | |
-| 8 | | |
-| 9 | | |
-| 10 | | |
+### A. Positive Displacement of Core
 
-### B. Negative displacement of core
+| S. No. | Displacement x (mm) | Output Voltage Vo (mV) |
+|---|---:|---:|
+| 1 | 1 | 17.45 |
+| 2 | 2 | 34.27 |
+| 3 | 3 | 51.82 |
+| 4 | 4 | 68.48 |
+| 5 | 5 | 84.62 |
+| 6 | 6 | 100.10 |
+| 7 | 7 | 114.80 |
+| 8 | 8 | 128.58 |
+| 9 | 9 | 141.31 |
+| 10 | 10 | 152.86 |
 
-| S. No. | Displacement x (mm) | Output voltage Vo (V) |
-|:---:|:---:|:---:|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
-| 6 | | |
-| 7 | | |
-| 8 | | |
-| 9 | | |
-| 10 | | |
+### B. Negative Displacement of Core
+
+| S. No. | Displacement x (mm) | Output Voltage Vo (mV) |
+|---|---:|---:|
+| 1 | -1 | 17.45 |
+| 2 | -2 | 34.27 |
+| 3 | -3 | 51.82 |
+| 4 | -4 | 68.48 |
+| 5 | -5 | 84.62 |
+| 6 | -6 | 100.10 |
+| 7 | -7 | 114.80 |
+| 8 | -8 | 128.58 |
+| 9 | -9 | 141.31 |
+| 10 | -10 | 152.82 |
 
 ## FORMULA
 
-- **Sensitivity S = ΔVo / Δx (V/mm)**
+Sensitivity of LVDT:
 
-ΔVo – change in output voltage; Δx – corresponding change in core displacement.
+S = ΔVo / Δx
+
+Where,
+
+- S = Sensitivity (mV/mm)
+- ΔVo = Change in output voltage (mV)
+- Δx = Change in displacement (mm)
+
+### SENSITIVITY CALCULATION
+
+For positive displacement:
+
+S = (152.86 - 17.45) / (10 - 1)
+
+S = 135.41 / 9
+
+**S = 15.0456 mV/mm**
+
+For negative displacement (magnitude):
+
+S = (152.82 - 17.45) / (10 - 1)
+
+S = 135.37 / 9
+
+**S = 15.0411 mV/mm**
 
 ## MODEL GRAPH
 
-### Displacement vs output voltage (positive and negative directions)
+Displacement vs output voltage (positive and negative directions)
 
-*[ Paste / draw the displacement vs output voltage graph here ]*
+### A. Positive Displacement vs Output Voltage
 
-**Figure 4:** LVDT characteristics
+<img width="661" height="466" alt="Graph-Positive" src="https://github.com/user-attachments/assets/911e0c60-b224-487d-a1b2-5595e1888181" />
+
+### B. Negative Displacement vs Output Voltage
+
+<img width="660" height="468" alt="Graph-Negative" src="https://github.com/user-attachments/assets/dd84ac97-09a8-4d8d-9e1a-3545af84bcd6" />
 
 ## RESULT
 
 Thus, the characteristics of the LVDT were obtained using the Virtual Lab. The output voltage varies linearly with the displacement of the core in both positive and negative directions over a limited range, with a small residual voltage at the null position.
+
+The sensitivity of the LVDT was calculated as approximately 15.0456 mV/mm for positive displacement and 15.0411 mV/mm for negative displacement.
