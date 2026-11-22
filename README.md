@@ -65,6 +65,8 @@ The output-versus-displacement characteristic is linear only over a limited rang
 
 **Frequency (f) = 1000 Hz**
 
+**Null voltage = 0 V**
+
 ### A. Positive Displacement of Core
 
 | S. No. | Displacement x (mm) | Output Voltage Vo (mV) |
